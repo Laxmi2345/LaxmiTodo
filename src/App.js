@@ -11,12 +11,12 @@ function App() {
 
 export default App;*/
 import './App.css';
-import Todo from './components/Todo'
+import TodoFirebase from './components/TodoFirebase'
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <TodoFirebase />
     </div>
   );
 }
